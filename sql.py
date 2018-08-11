@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 #author Wesker
-
 import sqlite3
 import smtplib
 from pyecharts import Bar
