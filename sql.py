@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 import sqlite3
 import smtplib
 from pyecharts import Bar
