@@ -4,7 +4,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import sessionmaker
 
-engine = create_engine("mysql+pymysql://root:xxx@x.x.x.x/wudi",
+engine = create_engine("mysql+pymysql://user:password@x.x.x.x/wudi",
                        encoding='utf-8', echo=True)
 
 Base = declarative_base()  
