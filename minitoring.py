@@ -5,9 +5,9 @@ import jinja2
 import yagmail
 import psutil
 
-EMAIL_USER='abc0012383@163.com'
+EMAIL_USER='xxx@163.com'
 EMAIL_PASSWORD='123456'
-RECIPITEMS=['shuang.lu@sondrel.com']
+RECIPITEMS=['xxx@xxxx.com']
 
 def render(tpl_path,**kwargs):
     path,filename=os.path.split(tpl_path)
